@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './components/Home';
 import PdfViewer from './components/PdfViewer';
 import About from './components/About';
+// import Footer from './components/Footer'; // Import the Footer component
 import { Container, Navbar, Nav } from 'react-bootstrap';
 
 function App() {
@@ -15,7 +16,6 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                {/* <Nav.Link as={Link} to="/">Home</Nav.Link> */}
                 <Nav.Link as={Link} to="/pdfs">Academic Work</Nav.Link>
                 <Nav.Link as={Link} to="/about">About</Nav.Link>
               </Nav>

@@ -18,7 +18,7 @@ const Home = () => (
       {/* Column for the title and paragraph */}
       <Col xs={12} sm={8}>
         <h1 style={{padding: "1rem"}}>Matthew Harvill</h1>
-        <Card style={{padding: "1rem", marginBottom: "1rem"}}>
+        <Card style={{padding: "1rem"}}>
           <Card.Body>
             <Card.Text>
               Welcome to my personal website! <br /><br />
@@ -26,12 +26,32 @@ const Home = () => (
               I graduated from Stanford with a Master's in Computer Science in Spring 2024.
               This website contains some of my academic work at Stanford and a little info about me. <br /><br />
               
-              Hope you enjoy :)
+              Hope you enjoy :) <br /><br />
+
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/matthew-harvill-797b7a16b/" style={{ marginRight: '20px' }}>LinkedIn</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Matt-Harvill" style={{ marginRight: '20px' }}>GitHub</a>
+              <a target="_blank" rel="noopener noreferrer" href="/pdf_files/Matthew_Harvill_Resume.pdf" style={{ marginRight: '20px' }}>Resume</a>
             </Card.Text>
           </Card.Body>
         </Card>
       </Col>
     </Row>
+
+    {/* <Row className="mt-4 align-items-center">
+      <Col xs={0} sm={4} className="text-center mb-4 mb-sm-0">
+        <div>
+        </div>
+      </Col>
+      <Col xs={12} sm={8}>
+        <Card style={{padding: "1rem"}}>
+          <Card.Body>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/matthew-harvill-797b7a16b/" style={{ marginRight: '20px' }}>LinkedIn</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Matt-Harvill" style={{ marginRight: '20px' }}>GitHub</a>
+            <a target="_blank" rel="noopener noreferrer" href="/pdf_files/Matthew_Harvill_Resume.pdf" style={{ marginRight: '20px' }}>Resume</a>
+          </Card.Body>
+        </Card>
+      </Col>
+    </Row> */}
   </Container>
 );
 
