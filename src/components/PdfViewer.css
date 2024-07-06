@@ -1,0 +1,12 @@
+.accordion {
+    padding: 1rem;
+}
+
+/* Add border to all accordion items after the first */
+.accordion-item {
+    border: 2px solid black; /* Set border width and color */
+    width: 100%; /* Adjust width as needed */
+    /* Center the accordion items */
+    /* margin-left: auto; */
+    margin-right: auto;
+}

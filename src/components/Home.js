@@ -1,30 +1,28 @@
 import React from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+import './Home.css'; // Import custom CSS file for styling
 
 const Home = () => (
   <Container>
-    <Row className="mt-4">
-      <Col>
-        <h1>Hello, world!</h1>
-        <p>
-          This is a simple hero unit, a simple layout-style component for calling
-          extra attention to featured content or information.
-        </p>
-        <p>
-          <Button variant="primary">Learn more</Button>
-        </p>
+    <Row className="mt-4 align-items-center">
+      {/* Column for the circular image */}
+      <Col xs={12} sm={4} className="text-center mb-4 mb-sm-0">
+        <div className="circle-container">
+          <img
+            src={`${process.env.PUBLIC_URL}/headshot.jpg`}  // Replace with your image path
+            alt="Profile"
+            className="circle-image"
+          />
+        </div>
       </Col>
-    </Row>
-    <Row className="mt-4">
-      <Col>
+      {/* Column for the title and paragraph */}
+      <Col xs={12} sm={8}>
+        <h1>Matthew Harvill</h1>
         <Card>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the bulk
-              of the card's content.
+              Welcome to my personal website! This website contains some of my projects and a little info about me. Hope you enjoy :)
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
       </Col>

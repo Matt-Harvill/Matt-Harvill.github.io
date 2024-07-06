@@ -1,0 +1,14 @@
+.circle-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .circle-image {
+    width: 90%; /* Adjust size as needed */
+    height: 90%; /* Adjust size as needed */
+    border-radius: 50%; /* Creates a circular shape */
+    object-fit: cover;
+    object-position: center;
+  }
+  
