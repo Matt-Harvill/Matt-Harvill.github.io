@@ -10,7 +10,7 @@ const Footer = () => {
         <Navbar.Toggle aria-controls="footer-navbar-nav" />
         <Navbar.Collapse id="footer-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/pdfs">Academic Work</Nav.Link>
+            <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
           </Nav>
         </Navbar.Collapse>

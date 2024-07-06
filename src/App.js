@@ -2,8 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './components/Home';
 import PdfViewer from './components/PdfViewer';
-import About from './components/About';
-// import Footer from './components/Footer'; // Import the Footer component
+// import About from './components/About';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 
 function App() {
@@ -16,8 +15,10 @@ function App() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link as={Link} to="/pdfs">Academic Work</Nav.Link>
-                <Nav.Link as={Link} to="/about">About</Nav.Link>
+                <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/matthew-harvill-797b7a16b/" className="nav-link">LinkedIn</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Matt-Harvill" className="nav-link">GitHub</a>
+                <a target="_blank" rel="noopener noreferrer" href="/pdf_files/Matthew_Harvill_Resume.pdf" className="nav-link">Resume</a>
               </Nav>
             </Navbar.Collapse>
           </Container>
@@ -25,8 +26,7 @@ function App() {
         <Container>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/pdfs" element={<PdfViewer />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<PdfViewer />} />
           </Routes>
         </Container>
       </div>

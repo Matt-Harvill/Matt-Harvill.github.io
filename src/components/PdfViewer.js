@@ -21,11 +21,11 @@ const PdfViewer = () => {
   return (
     <Container>
       {/* <Card style={{padding: "1rem"}}> */}
-      <h1 style={{padding: "1rem"}}>Academic Work</h1>
+      <h1 style={{padding: "1rem"}}>Projects</h1>
       {/* </Card> */}
 
       <Card style={{padding: "1rem", marginBottom: "1rem"}}>
-      <h3>Computer Science Projects</h3>
+      <h3>Computer Science Academic Papers</h3>
       <Accordion>
         {pdfFiles.map((pdf, index) => (
           <Accordion.Item eventKey={String(index)} key={index}>
@@ -47,7 +47,7 @@ const PdfViewer = () => {
       </Card>
 
       <Card style={{padding: "1rem", marginBottom: "1rem"}}>
-      <h3>Political Philosophy Papers</h3>
+      <h3>Political Philosophy Academic Papers</h3>
       <Accordion>
         <Accordion.Item eventKey={"0"}>
           <Accordion.Header>Liberalism and its Critics - Does Liberalism Lead to Anarchy?</Accordion.Header>
@@ -63,6 +63,13 @@ const PdfViewer = () => {
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
+      </Card>
+
+      <Card style={{padding: "1rem", marginBottom: "1rem"}}>
+      <h3>Bonus - Personal Project</h3>
+      <Card.Text>
+        Click <a target="_blank" rel="noopener noreferrer" href="https://coup-for-all-8b5265fb626c.herokuapp.com/">here</a> to play a game of Coup with your friends!
+      </Card.Text>
       </Card>
 
     </Container>
