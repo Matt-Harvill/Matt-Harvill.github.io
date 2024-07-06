@@ -17,11 +17,16 @@ const Home = () => (
       </Col>
       {/* Column for the title and paragraph */}
       <Col xs={12} sm={8}>
-        <h1>Matthew Harvill</h1>
-        <Card>
+        <h1 style={{padding: "1rem"}}>Matthew Harvill</h1>
+        <Card style={{padding: "1rem", marginBottom: "1rem"}}>
           <Card.Body>
             <Card.Text>
-              Welcome to my personal website! This website contains some of my projects and a little info about me. Hope you enjoy :)
+              Welcome to my personal website! <br /><br />
+              
+              I graduated from Stanford with a Master's in Computer Science in Spring 2024.
+              This website contains some of my academic work at Stanford and a little info about me. <br /><br />
+              
+              Hope you enjoy :)
             </Card.Text>
           </Card.Body>
         </Card>
