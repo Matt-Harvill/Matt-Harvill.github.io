@@ -4,8 +4,8 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const PdfViewer = () => {
   const pdfFiles = [
-    { name: 'CS 224S Final Project Report', path: '/pdfs/CS224S_Project_Final_Report.pdf' },
-    { name: 'CS 231N Final Project Report', path: '/pdfs/CS_231N_Project_Report.pdf' },
+    { name: 'CS 224S Final Project Report', path: '/github-pages/pdf_files/CS224S_Project_Final_Report.pdf' },
+    { name: 'CS 231N Final Project Report', path: '/github-pages/pdf_files/CS_231N_Project_Report.pdf' },
   ]
 
   return (
