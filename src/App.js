@@ -18,7 +18,6 @@ function App() {
                 <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/matthew-harvill-797b7a16b/" className="nav-link">LinkedIn</a>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Matt-Harvill" className="nav-link">GitHub</a>
-                <a target="_blank" rel="noopener noreferrer" href="/pdf_files/Matthew_Harvill_Resume.pdf" className="nav-link">Resume</a>
               </Nav>
             </Navbar.Collapse>
           </Container>

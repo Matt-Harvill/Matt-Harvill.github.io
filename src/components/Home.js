@@ -24,7 +24,7 @@ const Home = () => (
               Welcome to my personal website! <br /><br />
               
               I graduated from Stanford with a Master's in Computer Science in Spring 2024.
-              This website contains some of my projects at Stanford and links to my professional accounts and resume. <br /><br />
+              This website contains some of my projects at Stanford and links to my professional accounts. <br /><br />
               
               Hope you enjoy :)
             </Card.Text>
